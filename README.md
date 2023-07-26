@@ -1,4 +1,4 @@
-# VideoBLIP: A BLIP2 extension for video input
+# VideoBLIP: An Extension of the BLIP2 Model for Video Input
 
 This repository contains the source code for the VideoBLIP model. VideoBLIP is a variant of BLIP2, adapted to handle video inputs. In addition, we provide the DeepSpeed launch commands to facilitate multi-node learning.
 
@@ -12,6 +12,14 @@ To install the necessary Python modules, execute the following command. We recom
 ```shell
 pip install -r requirements.txt
 ``` 
+
+## Installation
+
+```shell
+git clone https://github.com/kotarotanahashi/video_blip.git
+cd video_blip
+pip install .
+```
 
 
 ## Training on the BDDX Dataset
